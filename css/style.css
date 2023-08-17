@@ -41,19 +41,19 @@ body{
 }
 
 #batman{
-    background-image: url(/img/shadow-batman.png);
+    background-image: url(../img/shadow-batman.png);
     background-repeat: no-repeat;
     background-size:contain;
 }
 
 #harley{
-    background-image: url(/img/shadow-harley.png);
+    background-image: url(../img/shadow-harley.png);
     background-repeat: no-repeat;
     background-size:contain;
 }
 
 #superman{
-    background-image: url(/img/shadow-superman.png);
+    background-image: url(../img/shadow-superman.png);
     background-repeat: no-repeat;
     background-size:contain;
 }
