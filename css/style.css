@@ -1,0 +1,100 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.header-1{
+    background-color: #1CD1B0;
+    padding: 1% 3%;
+    margin: 0;
+}
+
+.titulo{
+    background-color: #00669F;
+    margin: 0;
+    padding: 2% 3%;
+}
+
+.personajes{
+    margin: 10% 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fondo i{
+    color: #CC2424;
+    font-size: 170%;
+    position: absolute;
+    z-index: 1;
+}
+
+.tarjeta{
+    margin: 0 3%;
+    width: 312px;
+    height: 550px;
+    background-color: #F3F3F3;
+    padding: 2%;
+    border-radius: 4% 4% 0 0;
+    box-sizing: border-box;
+    box-shadow: 0 0.4rem 0.8rem darkgray;
+}
+
+#batman{
+    background-image: url(/img/shadow-batman.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#harley{
+    background-image: url(/img/shadow-harley.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#superman{
+    background-image: url(/img/shadow-superman.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.foto{
+    border-radius: 50%;
+}
+
+.cont-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h3{
+    text-transform: uppercase;
+    margin: 10% 0;
+}
+
+.info button{
+    margin: 8% 0;
+    padding: 5%;
+    width: 45%;
+    background-color: #00669F;
+    color: #F3F3F3;
+    cursor: pointer;
+    border: none;
+    margin: 4% 0;
+}
+
+footer{
+    background-color: #00669F;
+    padding: 0.3% 0 0.5% 2%;
+    color: #FFF9F9;
+}
+
