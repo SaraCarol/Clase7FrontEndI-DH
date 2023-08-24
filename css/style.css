@@ -31,7 +31,7 @@ body{
 }
 
 .tarjeta{
-    margin: 0 2% 4%;
+    margin: 0 2% 7%;
     width: 25vw;
     height: 630px;
     background-color: #F3F3F3;
@@ -92,7 +92,7 @@ body{
 .info button{
     margin: 8% 0;
     padding: 5%;
-    width: 45%;
+    width: 10vw;
     background-color: #00669F;
     color: #F3F3F3;
     cursor: pointer;
@@ -106,3 +106,39 @@ footer{
     color: #FFF9F9;
 }
 
+@media (max-width: 1000px){
+    .tarjeta {
+        width: 40vw;
+        height: 600px;
+        padding: 3%;
+    }    
+
+    .foto {
+        width: 16vw;
+    }
+
+    .info h3 {
+        margin: 10% 0 5%;
+    }
+
+    .info button{
+        width: 15vw;
+    }
+}
+
+@media (max-width: 500px){
+    .tarjeta {
+        width: 62vw;
+        height: 522px;
+        padding: 3%;
+    }  
+    
+    .foto {
+        width: 25vw;
+    }
+
+    .info button{
+        width: 25vw;
+    }
+
+}
